@@ -24,7 +24,7 @@ const MainHero = () => {
                         <span>↗️</span>
                     </div>
                     <div className='h-32 w-[100%] overflow-hidden'>
-                        <img className='w-full h-full object-cover' src='src/assets/images/volumizing_mascaras.png'/>
+                        <img className='w-full h-full object-cover' src='https://imgur.com/1TRfmY9'/>
                     </div>
 
                     <div className='text-[17px] py-3 px-3'>
