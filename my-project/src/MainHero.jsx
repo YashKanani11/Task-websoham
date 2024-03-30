@@ -3,7 +3,7 @@ import AuthorCard from './CommonComponents/AuthorCard'
 
 const MainHero = () => {
   return (<>
-    <section className='grid grid-cols-3 mt-10 gap-7 border-2 mx-[150px]'>
+    <section className='grid grid-cols-3 mt-10 gap-7 mx-[150px]'>
         <div className='col-span-1 relative h-fit'>
             <div className='rounded-xl h-full'>
                 <div className='aspect-w-16 aspect-h-10'>
@@ -15,7 +15,7 @@ const MainHero = () => {
             </div>
             <div className='backdrop-blur-md text-white absolute ml-[20%] py-1 px-2 bottom-16 w-[70%] bg-white/5 flex rounded-xl text-[30px] cursor-pointer hover:border-black hover:scale-105 transition-all'>VIEW BLOG<span>↗️</span></div>
         </div>
-        <div className='col-span-2 border-2 relative grid grid-cols-2 h-fit'>
+        <div className='col-span-2 relative grid grid-cols-2 h-fit'>
             <div className='col-span-1 h-fit'>
                 <h1 className='text-[90px] h-[50%] font-bold leading-tight font-[Archivo]'>Beauty Trends Lifestyle</h1>
                 <div className='bg-[#B287FD] py-1 rounded-lg text-[25px]'>
@@ -35,15 +35,15 @@ const MainHero = () => {
             </div>
             <div className='col-span-1 px-7'>
                 <AuthorCard img='https://s3-alpha-sig.figma.com/img/fcac/b0f4/6928824ada6b549177833bafa4d16cfe?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SZ66Fak9nbdtkxA6svCnwMSYk~bF6BWuVOcoUkJa60ORvpKHsdSY5pxCeGYC6WHw4HuDR2WO984QKdxgce-Q3vAoKhl6Q8~ijPdu41f571la-z5Pvhj4tw5hh~trdV0BW8Tp2X1f5LWslayIfortcWvHuaSFI005Qx3zqNCRaU5n5tjtQn2SfkcCCZjxIr9xObEBZPR3JIztUPxB0Cr87G9t1uXPGDBlNPpCDVUUZwbtDD0VpjIHsIjaSMRIIK5QaJ-4ciqiewkr-HFVov7vNslEIkXlQrsW220nx9pabj0~N94gLQikIShgmGKdxyL9OX4-CbZEcPFj6OeGnqbToA__' name='SARAM WHITES' bg='rgb(178,135,253)'/>
-                <div className='border-2 mt-10 p-2 pb-0 bg-gray-200 flex-col justify-between rounded-xl'>
-                    <div className='flex justify-between cursor-pointer border border-transparent hover:border-black px-1 transition-all rounded-xl bg-gray-200 hover:bg-gray-300'>
+                <div className=' mt-10 p-2 pb-0 bg-gray-200 flex-col justify-between rounded-xl'>
+                    <div className='flex justify-between cursor-pointer border-transparent hover:border-black px-1 transition-all rounded-xl bg-gray-200 hover:bg-gray-300'>
                         <p>VIEW ALL CATEGORIES</p>
                         <span>↗️</span>
                     </div>
-                    <div className='h-[300px] border-2 border-red-50 mt-16 relative'>
+                    <div className='h-[300px] mt-16 relative'>
                         {/* absolute buttons */}
-                        <button className='absolute w-20 h-20 rounded-full p-2 bg-[#DBFF74] -right-10 hover:scale-105 transition-all top-[27%] hover:bg-[#c0a6ec] hover:text-white'>&gt;</button>
-                        <button className='absolute w-20 h-20 rounded-full p-2 bg-[#DBFF74] -right-10 hover:scale-105 transition-all top-[55%] hover:bg-[#c0a6ec] hover:text-white'>&lt;</button>
+                        <button className='absolute w-20 h-20 rounded-full p-2 bg-[#DBFF74] -right-12 hover:scale-105 transition-all top-[27%] hover:bg-[#c0a6ec] hover:text-white'>&gt;</button>
+                        <button className='absolute w-20 h-20 rounded-full p-2 bg-[#DBFF74] -right-12 hover:scale-105 transition-all top-[55%] hover:bg-[#c0a6ec] hover:text-white'>&lt;</button>
                     </div>
                 </div>
             </div>
