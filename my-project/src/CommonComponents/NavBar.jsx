@@ -11,7 +11,7 @@ const NavBar = () => {
     event.preventDefault();
     onSearch(query);
   };
-    const navComponents=['HOME','BLOGS','CATEGORIES','ABOUT','CONTACT','🙍🏼‍♂️']
+    const navComponents=['HOME','BLOGS','CATEGORIES','ABOUT','CONTACT']
   return (
     <>
     <section className='flex justify-between px-10 mt-2'>
@@ -23,15 +23,15 @@ const NavBar = () => {
             </svg>
 
             </div>
-            <div className='col-span-2 pt-3'>
-            <form onSubmit={handleSubmit} className='relative'>
+            <div className='col-span-2 pt-3 relative'>
+            <form onSubmit={handleSubmit} className=''>
                 <input className='border-2 py-1 px-2 rounded-full w-[90%]'
                     type="text"
                     value={query}
                     onChange={handleInputChange}
                     placeholder="Search"
                 />
-            <button type="submit" className='relative right-12'>🔍</button>
+            <button type="submit" className='absolute right-10 top-5 hover:scale-125'><img className='h-5 z-30 w-5' src='https://s3-alpha-sig.figma.com/img/0b43/94fe/6ee9ef7d64aaa6d4dce1a74e56f46035?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kNF1YwwhdXwyL0mryXtqZKA3ol7mUnr2F4UfKbiAjDYBO~B6Px7aQPxoOCPJyuQcQ-ph1sVx9~ZAHS8pT2kocFUbDXs0v1nKjBPrqo9qCcnGqd15qv4swt7THIHU0uII6oLMo1XBKuGdTmfmlfkdEo9mpO4BUs6lDH7bPoqvDmAm5kUhBM74Po0-8eQN9oalzCW5-TnFdArTgi-FdXZxYRbSB9bvFJHqsCtbSsUc8gcQ4CT8lyCX7j-cTFp57wVs-zL4IvHDkLR9akFwje9ZUh1LWp~HVHsO9tnLkCEFlsDz-L2rq2BvVcCF02vpSnrmOAOLsxO-o3j0ba6lq7ixFw__'/></button>
             </form>
             </div>
         </div>
@@ -41,6 +41,9 @@ const NavBar = () => {
             {e}
             </button>
         ))}
+        <div>
+          <img className='h-7 mt-4 hover:scale-125' src='https://s3-alpha-sig.figma.com/img/1624/5005/88f6da491744aba1ad9ac9368f3689d9?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kFcmTVUUJV-4Gc6sxaAUvNmPKg6-dJV0M5YcW-SUQan~bAfo5zkbW98mINdwPCLZisH7AFtJ-JPotnr3y9SEiaTX7CArcgs91wKi8w0M7JJbbPkRuOq~cxBbV2OHcT~draKH6OZ0Luxd59jr-AmeraAnNbFv-oKmvGUeHFFSYsJL7wpXfeOa7fMqW-opnBJhzgVpftPaWQK7uHYsj8sxH9JwaIIwOv7gZfInzUvf2CAMKb8l-o8lmeDe2vEpF3siODzDrZLjTGtQIPu2DjY1yylb~2jUSIlP-6U-K40jlqG3Xye25FOlh5ou61AKqCU0mA70EDlOkQJrIIegP~gw~Q__'/>
+        </div>
         </div>
     </section>
     </>

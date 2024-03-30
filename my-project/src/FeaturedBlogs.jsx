@@ -13,9 +13,9 @@ const FeaturedBlogs = () => {
           <div className='col-span-1 p-2 relative'>
             
             <StylesCard title={'What is Bridal Shower ?'} mainbg={'#B287FD'} category={'EXPLORE'} 
-            date={'APRIL 20, 2024'} alignTop={-130} imgsrc={'https://imgur.com/mU6deCI'}/>
+            date={'APRIL 20, 2024'} alignTop={-130} imgsrc={'https://imgur.com/mU6deCI.png'}/>
             <div className='w-[290px] absolute bottom-20 left-10'>
-            <AuthorCard img='https://s3-alpha-sig.figma.com/img/fcac/b0f4/6928824ada6b549177833bafa4d16cfe?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SZ66Fak9nbdtkxA6svCnwMSYk~bF6BWuVOcoUkJa60ORvpKHsdSY5pxCeGYC6WHw4HuDR2WO984QKdxgce-Q3vAoKhl6Q8~ijPdu41f571la-z5Pvhj4tw5hh~trdV0BW8Tp2X1f5LWslayIfortcWvHuaSFI005Qx3zqNCRaU5n5tjtQn2SfkcCCZjxIr9xObEBZPR3JIztUPxB0Cr87G9t1uXPGDBlNPpCDVUUZwbtDD0VpjIHsIjaSMRIIK5QaJ-4ciqiewkr-HFVov7vNslEIkXlQrsW220nx9pabj0~N94gLQikIShgmGKdxyL9OX4-CbZEcPFj6OeGnqbToA__' name='SARAM WHITES' fontSize={10} width={80}/></div>
+            <AuthorCard img='https://s3-alpha-sig.figma.com/img/fcac/b0f4/6928824ada6b549177833bafa4d16cfe?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SZ66Fak9nbdtkxA6svCnwMSYk~bF6BWuVOcoUkJa60ORvpKHsdSY5pxCeGYC6WHw4HuDR2WO984QKdxgce-Q3vAoKhl6Q8~ijPdu41f571la-z5Pvhj4tw5hh~trdV0BW8Tp2X1f5LWslayIfortcWvHuaSFI005Qx3zqNCRaU5n5tjtQn2SfkcCCZjxIr9xObEBZPR3JIztUPxB0Cr87G9t1uXPGDBlNPpCDVUUZwbtDD0VpjIHsIjaSMRIIK5QaJ-4ciqiewkr-HFVov7vNslEIkXlQrsW220nx9pabj0~N94gLQikIShgmGKdxyL9OX4-CbZEcPFj6OeGnqbToA__' name='SARAM WHITES' fontSize={10} width={70}/></div>
           </div>
           <div className='col-span-2 mx-5 p-3'>
             {acoordian.map((e)=>{
@@ -26,7 +26,7 @@ const FeaturedBlogs = () => {
           </div>
           <div className='col-span-1 p-2 relative'>
             <StylesCard title={'Best Waterproof Mascara'} mainbg={'#0f1b0e'} category={'BEAUTY'} 
-            date={'March 20, 2024'} alignTop={-130} imgsrc={'https://imgur.com/gsl0ErV'}/>
+            date={'March 20, 2024'} alignTop={-130} imgsrc={'https://imgur.com/gsl0ErV.png'}/>
             <div className='w-[290px] absolute bottom-14 left-10'>
             <AuthorCard img='https://s3-alpha-sig.figma.com/img/fcac/b0f4/6928824ada6b549177833bafa4d16cfe?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SZ66Fak9nbdtkxA6svCnwMSYk~bF6BWuVOcoUkJa60ORvpKHsdSY5pxCeGYC6WHw4HuDR2WO984QKdxgce-Q3vAoKhl6Q8~ijPdu41f571la-z5Pvhj4tw5hh~trdV0BW8Tp2X1f5LWslayIfortcWvHuaSFI005Qx3zqNCRaU5n5tjtQn2SfkcCCZjxIr9xObEBZPR3JIztUPxB0Cr87G9t1uXPGDBlNPpCDVUUZwbtDD0VpjIHsIjaSMRIIK5QaJ-4ciqiewkr-HFVov7vNslEIkXlQrsW220nx9pabj0~N94gLQikIShgmGKdxyL9OX4-CbZEcPFj6OeGnqbToA__' name='SARAM WHITES' fontSize={10} width={80}/></div>
           </div>

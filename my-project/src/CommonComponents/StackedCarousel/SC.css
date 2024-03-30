@@ -8,6 +8,8 @@ perspective-origin: 50% 10%;
 
 .slide {
 user-select: none;
+border: 2px solid #b287fd;
+box-shadow:10px 20px #b287fd;
 display: block;
 position: absolute;
 border-radius: 15%;
