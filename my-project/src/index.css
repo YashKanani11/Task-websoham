@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Archivo;
+}
+
+@keyframes moveBanner {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-banner-strip {
+    animation: moveBanner 30s linear infinite alternate;
+  }
+  @keyframes moveBannerRev {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .animate-banner-strip-rev {
+    animation: moveBannerRev 30s linear infinite alternate;
+  }
+  
