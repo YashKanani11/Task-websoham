@@ -44,33 +44,33 @@ const MainHero = () => {
                     <div className='h-[360px] mt-16 relative'>
                         <div className='h-full w-full border-red-500 flex flex-col justify-end'>
                         <div className='h-[12%] mx-auto w-[70%] relative'>
-                                <FallingBoxes text={''} deg={-23} bottom={67}/>
-                                <FallingBoxes text={''} deg={6} left={80} bottom={37}/>
+                                <FallingBoxes text={''} deg={-23} bottom={67} durration={1.2}/>
+                                <FallingBoxes text={''} deg={6} left={80} bottom={37}durration={1.1}/>
                                 
                             </div>
                             <div className='h-[12%] mx-auto w-[70%] relative'>
-                                <FallingBoxes text={'intrest'} deg={13} left={-20} bottom={'40'}/>
-                                <FallingBoxes text={'hobbies'} deg={13} left={120} bottom={'32'}/>
+                                <FallingBoxes text={'intrest'} deg={13} left={-20} bottom={'40'}durration={0.9}/>
+                                <FallingBoxes text={'hobbies'} deg={13} left={120} bottom={'32'} durration={1}/>
                                 
                             </div>
                             <div className='h-[12%] mx-auto w-[70%] relative'>
-                                <FallingBoxes text={'explore'} deg={13} bottom={38} left={'-40'}/>
-                                <FallingBoxes text={'health'} deg={-17} left={70} bottom={26}/>
+                                <FallingBoxes text={'explore'} deg={13} bottom={38} left={'-40'} durration={0.8}/>
+                                <FallingBoxes text={'health'} deg={-17} left={70} bottom={26} durration={0.8}/>
                                 
                             </div>
                             <div className='h-[12%] mx-auto w-[70%] relative'>
-                                <FallingBoxes text={'career'} deg={17} bottom={25}/>
+                                <FallingBoxes text={'career'} deg={17} bottom={25} durration={0.7}/>
                                 
                                 
                             </div>
                             <div className='h-[12%] mx-auto w-[70%] relative'>
-                                <FallingBoxes text={'style'} deg={-13} left={'-20'} bottom={10}/>
-                                <FallingBoxes text={'wellness'} deg={-13} left={'120'} bottom={8}/>
+                                <FallingBoxes text={'style'} deg={-13} left={'-20'} bottom={10} durration={0.6}/>
+                                <FallingBoxes text={'wellness'} deg={-13} left={'120'} bottom={8} durration={0.7}/>
                                 
                             </div>
                             <div className='h-[12%] mx-auto w-[70%] relative'>
-                                <FallingBoxes text={'fashion'} deg={0}/>
-                                <FallingBoxes text={'beauty'} deg={0} left={'120'}/>
+                                <FallingBoxes text={'fashion'} deg={0} durration={0.4}/>
+                                <FallingBoxes text={'beauty'} deg={0} left={'120'} durration={0.5}/>
                                 
                             </div>
                         </div>

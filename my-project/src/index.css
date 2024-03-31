@@ -29,4 +29,15 @@
   .animate-banner-strip-rev {
     animation: moveBannerRev 30s linear infinite alternate;
   }
-  
+
+  @keyframes boxFall {
+    0% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .animate-boxFalling {
+    animation: boxFall 3s linear;
+  }

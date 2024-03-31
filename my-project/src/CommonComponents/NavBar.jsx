@@ -37,7 +37,7 @@ const NavBar = () => {
         </div>
         <div className='w-[50%] flex justify-around '>
         {navComponents.map((e, index) => (
-            <button key={index} className='transition-all inline- hover:italic px-2 font-black hover:text-[#B287FD] font-[Archivo] tracking-tight relative'>
+            <button key={index} className='transition-all inline px-2 text-black hover:text-[#B287FD] font-[Archivo] tracking-tight relative font-bold border-b-2 border-transparent hover:border-black'>
             {e}
             </button>
         ))}

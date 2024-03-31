@@ -56,7 +56,6 @@ const SC = () => {
 
     container.addEventListener("click", moveThis);
 
-    // Add click event listener to the video element
     const videoElement = videoRef.current;
     videoElement.addEventListener('click', (e) => e.stopPropagation());
 
@@ -74,7 +73,7 @@ const SC = () => {
           loop
           muted
           className="w-full h-full object-cover"
-          ref={videoRef} // Assign ref to the video element
+          ref={videoRef}
         >
           <source src='https://s3-figma-videos-production-sig.figma.com/video/984790381755042020/TEAM/3afe/2080/-7869-4659-837c-613385238096?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qAB~BdO995BOpJezV858tQ7NWhFE6rQj3kfmI4FRNymMsTpYeCjdQspzoNbujsxUJm00wqiMkxW2I~BoiJJaCdXhfLQAR62Lcd0JU78NF9USyFP3mbx41OfnYMtwXG2iP6uJVN1AngP3ea58t5w~Sz3UO~gZUtB8aOvntcsxbX0jo0o2rECOfhS1kQeb48xcrnY4xDxvobUQD4JnOQRPEWE6XdM5XeM7dOfliUFFwuzBzdlN86ZRuCp3TB0lriedOkrK8G0vnSOcq8VSlWhgK8F3UEVXR0v5C3Owh9JwB3H5SCGGg1C0vmNkpubY2lUwEN-V6u2j65sqPvfikXs-ng__' type="video/mp4" />
         </video>
